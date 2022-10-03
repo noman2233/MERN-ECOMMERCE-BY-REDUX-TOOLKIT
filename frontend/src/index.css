@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+   .navbarul{
+    display: none;
+   }
+   .main_imge{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+   }
+   .col_left{
+    height: 8rem;
+   }
+}
+
+.error{
+   color: red;
+}
